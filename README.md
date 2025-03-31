@@ -33,7 +33,7 @@ This is a personal portfolio website designed to showcase my skills, projects, a
 2. Open `index.html` in your browser.
 
 ## 🖥️ Live Demo
-[View Online]([https://your-live-demo-link.com](https://rajromiopaul.github.io/portfolio/))
+[View Online](https://your-live-demo-link.com](https://rajromiopaul.github.io/portfolio/)
 
 ## 📬 Contact
 - **GitHub**: [Your GitHub Profile](https://github.com/rajromiopaul)
