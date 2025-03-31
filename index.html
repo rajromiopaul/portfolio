@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>Personal Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- header -->
+        <header class="header" id="home">
+            <h1 class="header-heading">Web Developer</h1>
+            <img src="./images/romio-paul.jpg" alt="Romio Paul" class="header-person-img" />
+            <h3 class="header-person-name">Romio Paul</h3>
+            <a href="#projects" class="header-btn">Projects</a>
+        </header>
+        <!-- end header -->
+
+        <!-- navbar -->
+        <nav class="navbar">
+            <a href="#home" class="navbar-link">home</a>
+            <a href="#about" class="navbar-link">about</a>
+            <a href="#projects" class="navbar-link">portfolio</a>
+            <a href="#contact" class="navbar-link">contact</a>
+        </nav>
+        <!-- end navbar -->
+
+        <!-- about section -->
+        <section class="about" id="about">
+            <h1 class="about-heading section-heading">About Me</h1>
+            <div class="progress-bars-wrapper">
+                <div class="progress-bar">
+                    <p class="progress-bar-text">
+                        HTML
+                        <span>97</span>%
+                    </p>
+                    <div class="progress-bar-percent"></div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="progress-bar-text">
+                        CSS
+                        <span>91</span>%
+                    </p>
+                    <div class="progress-bar-percent"></div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="progress-bar-text">
+                        JavaScript
+                        <span>87</span>%
+                    </p>
+                    <div class="progress-bar-percent"></div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="progress-bar-text">
+                        Node JS
+                        <span>80</span>%
+                    </p>
+                    <div class="progress-bar-percent"></div>
+                </div>
+
+                <div class="progress-bar">
+                    <p class="progress-bar-text">
+                        Express JS
+                        <span>77</span>%
+                    </p>
+                    <div class="progress-bar-percent"></div>
+                </div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <i class="far fa-lightbulb"></i>
+                    <h2 class="service-heading">Creative</h2>
+                </div>
+
+                <div class="service">
+                    <i class="fas fa-cut"></i>
+                    <h2 class="service-heading">Maintenance</h2>
+                </div>
+
+                <div class="service">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h2 class="service-heading">Fast</h2>
+                </div>
+
+                <div class="service">
+                    <i class="fas fa-rocket"></i>
+                    <h2 class="service-heading">Dynamic</h2>
+                </div>
+            </div>
+        </section>
+        <!-- end about section -->
+
+        <!-- projects section -->
+        <section class="projects" id="projects">
+            <h1 class="projects-heading section-heading">My Projects</h1>
+            <div class="projects-wrapper">
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Netflix Clone</h2>
+                        <h4 class="project-technologies">HTML / CSS</h4>
+                    </div>
+                    <img src="./images/project-1.jpg" alt="architect website" class="project-img" />
+                    <a href="https://rajromiopaul.github.io/Netflix-Clone/" class="project-link" target="_blank">Watch
+                        Live</a>
+                </div>
+
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">EdTech</h2>
+                        <h4 class="project-technologies">HTML / CSS</h4>
+                    </div>
+                    <img src="./images/project-2.jpg" alt="budget app" class="project-img" />
+                    <a href="https://rajromiopaul.github.io/edtech/" class="project-link" target="_blank">Watch Live</a>
+                </div>
+
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Lawmine</h2>
+                        <h4 class="project-technologies">HTML / CSS</h4>
+                    </div>
+                    <img src="./images/project-3.jpg" alt="wine house" class="project-img" />
+                    <a href="#" class="project-link" target="_blank">Watch Live</a>
+                </div>
+
+                <div class="project">
+                    <div class="project-content">
+                        <h2 class="project-title">Vue Lamp</h2>
+                        <h4 class="project-technologies">HTML / CSS / JS</h4>
+                    </div>
+                    <img src="./images/project-4.jpg" alt="task manager" class="project-img" />
+                    <a href="https://rajromiopaul.github.io/Vue-Lamp/" class="project-link" target="_blank">Watch
+                        Live</a>
+                </div>
+            </div>
+        </section>
+        <!-- end projects section -->
+
+        <!-- contact section -->
+        <section class="contact" id="contact">
+            <h1 class="contact-heading section-heading">Contact Me</h1>
+            <form class="contact-form">
+                <input type="text" placeholder="Name" />
+                <input type="email" placeholder="Email" />
+                <textarea placeholder="Message"></textarea>
+                <input type="submit" value="Send" class="contact-form-btn" />
+            </form>
+        </section>
+        <!-- end contact section -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="social-media-icons">
+                <a href="https://github.com/rajromiopaul" target="_blank" class="social-media-link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/rajromiopaul/" target="_blank" class="social-media-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="mailto:rajromiopaul@gmail.com" target="_blank" class="social-media-link">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/+918942848671" class="social-media-link" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+            </div>
+            <p class="copyright">Copyright &copy; Romio Paul. All Rights reserved.</p>
+        </footer>
+        <!-- end footer -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
